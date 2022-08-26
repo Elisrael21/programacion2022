@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chrset="utf-8">
+    <title>Mi página ejmplo para pogramación</title>
+  </head>
+<scrip>
+
+alert("hola mundo");
+</scrip>
+  <body>
+    <p>Esta es mi página</p>
+<p>Israel Marin</p>
+  </body>
+</html>
