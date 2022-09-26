@@ -2,17 +2,20 @@
 <html>
 <body>
 
-<h2>Ciclo for</h2>
+<h2>Ciclo</h2>
+
+<p id="Usuarios"></p>
+
 <script>
-for (var i = 0; i < 12; i++) {
-   println(i);
+const Usuarios = ["Pedro", "Luisa", "Laura", "Mario", "Poloma", "Juan"];
+
+let text = "";
+for (let i = 0; i < Usuarios.length; i++) {
+  text += Usuarios[i] + "<br>";
 }
-usuarios={"Pedro", "Luisa", "Laura", "Mario"};
-pwd={"123", "ab3", "querty", "2022"};
-for (u=0, u<usuarios.lenght,u++)
-{println(usuarios[u]);
-println(pwd[u];
-}
-<script/>
+
+document.getElementById("Usuarios").innerHTML = text;
+</script>
+
 </body>
 </html>
