@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html>
-<body>
+<style>
+body{
+     background-color:yellow;
+}
+table, th, td {
+  border:1px solid black;
+}
+</style>
 
-<h2>Ciclo</h2>
+<h2>Usuarios y contraseñas</h2>
+<p>Tabla</p>
+<table style="width:100%">
+  <tr>
+    <th>Nombre</th>
+    <th>Usuario</th>
+    <th>Contraseña</th>
+  </tr>
+  <tr>
+    <td>Paola Herrera </td>
+    <td>Pao Pao</td>
+    <td>2123</td>
+  </tr>
+  <tr>
+    <td>Isrrael Marin</td>
+    <td>rrael</td>
+    <td>071J</td>
+  </tr>
+<tr>
+  <td>Azuara hernandez </td>
+    <td>Azu</td>
+    <td>0711A</td>
+    </tr>
+</table>
 
-<p id="Usuarios"></p>
+<p>Arreglo</p>
+<p>Usuarios y Contraseñas</p>
+<p id="usuarios"></p>
+<p id="contraseña"></p>
+<script>
+const usuarios = ["Pedro", "Luisa", "Laura", "Mario", "Paloma"];
+const contraseña = ["123", "ab3", "querty", "2022", "JIP"];
+document.getElementById("usuarios").innerHTML = usuarios;
+document.getElementById("contraseña").innerHTML = contraseña;
+</script>
+
+<p>Ciclo For Loop</p>
+
+<p id="Num"></p>
 
 <script>
-const Usuarios = ["Pedro", "Luisa", "Laura", "Mario", "Poloma", "Juan"];
-const Contra = ["123", "ab3", "querty", "2022", "JIP", "1997"];
-
 let text = "";
-for (let i = 0; i < Usuarios.length; i++) {
-  text += Usuarios[i] + "-" + Contra[i] "<br>";
+
+for (let i = 0; i < 12; i++) {
+  text += "El número es " + i + "<br>";
 }
 
-document.getElementById("Usuarios").innerHTML = text;
-document.getElementById("Contra").innerHTML = text;
+document.getElementById("Num").innerHTML = text;
 </script>
-  <script>
-  
-for (let i = 0; i <=12; i++) {
-  println [i];
-}
 
-</script>
 
 </body>
 </html>
